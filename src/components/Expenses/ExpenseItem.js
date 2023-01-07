@@ -4,13 +4,12 @@ import Card from "../UI/Card";
 import CreateDate from "./CreateDate";
 
 function ExpenseItem(props) {
-    
     const [title, setTitle] = useState(props.title);
 
     const WhenClickedHandler = () => {
         setTitle("UPDATTTTTTTEEEEEEEEE");
         console.log("CLICKED AGAIN!", title);
-    }
+    };
     // ! *************************************
     // ! *************************************
     return (
